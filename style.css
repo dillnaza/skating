@@ -1,0 +1,46 @@
+
+            a:link    {color:red; text-decoration:none}
+            a:visited {color:red; text-decoration:none}
+            a:hover   {color:black; text-decoration:underline}
+            a:active  {color:black; text-decoration:underline} 
+        div
+        {
+            margin: 5px;
+            font-size: 16px;
+            font-family:Verdana;
+            line-height: 130%;
+        }
+        h2,h3
+        {
+            font-size: 25px;
+            color:black;
+        }
+        h1
+        {
+            font-size: 40px;
+            color:black;
+        }
+        body
+        {
+            background-color:#fde910;
+        }
+        table {
+            border: 2px solid black;
+            border-radius: 10px;
+           }
+        td, th {
+            padding: 3px;
+            border: 2px solid black;
+           }
+        #sidebar
+        {
+            float: left;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+        #main
+        {
+            height: 400px;
+            margin-left: 400px;
+        }
